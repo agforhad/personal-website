@@ -11,47 +11,113 @@ h2{
     text-align: center;
     font-size: 50px;
 }
+h3{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+}
 .name-highlight{
     color: chocolate;
 }
+.name-color{
+    color:rgb(241, 8, 8);
+
+}
+.shadow{
+    box-shadow: 10px 20px 40px rgb(182, 234, 255);
+    border-radius: 10px;
+    height: 80%;
+}
 
 .half-width{
-    width: 20%;
+    width: 40%;
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
     padding-left: 2%;
     
 }
 .half-width img{
-    width: 120%;
+    width: 100%;
 }
-.top-banner{
-    background-image: url("images/top-banner.png");
+.half-width-another{
+    text-align: justify;
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width-another img{
+    display: block;
+    width: 100%;
+}
+.shadow-half-one{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
+}
+.shadow-half-two{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
+}
+.shadow-half-three{
+    box-shadow: 10px 20px 40px dimgray;
+    border-radius: 15px;
+    height: 90%;
+}
+.background-image{
+    background-image: url("images/Group_33094_1.png"); 
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 200px;
+    height: 40%;
+   
+}
+.img-text{
+    color: whitesmoke;
+    font-size: 200%;
+    position: relative;
+    left: 30%;
+    top: 45%;
+    font-size: 250%;
 
 }
-section{
-    height: 400px;
-    padding-bottom: 100px;
+.background-link{
+    position: relative;
+    left: 60%;
+    top: 5%;
 }
-.about{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
+section{
+    height: 500px;
+    padding-bottom: 150px;
 }
 .working-area{
     font-size: 50px;
     font-weight: 10;
     margin-left: 50%;
-    
-    
+}
+.final-done{
+    text-align: center;
+}
+.final-half-width img{
+    width: 2.5%;
+    float:left;
+    left: 43%;
+    position: relative;
+    margin: 1%;
 }
 .link-button{
     text-decoration: none;
-    background-color: darkblue;
+    background-color: rgb(241, 12, 108);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+#best-disign{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, red, orangered);
+    border-image-slice: 1;
 }
 footer p{
     text-align: center;
